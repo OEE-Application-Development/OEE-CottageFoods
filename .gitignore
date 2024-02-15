@@ -8,7 +8,7 @@
 __pycache__
 
 # Robot Framework results
-robot/OEE-CottageFoods/results/
+robot/OEE-Extension/results/
 
 # Salesforce cache
 .sf/

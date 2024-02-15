@@ -1,8 +1,8 @@
 minimum_cumulusci_version: '3.84.1'
 project:
-    name: OEE-CottageFoods
+    name: OEE-Extension
     package:
-        name: OEE-CottageFoods
+        name: OEE-Extension
         namespace: csuoee
         api_version: '59.0'
     dependencies:
@@ -14,14 +14,14 @@ project:
 tasks:
     robot:
         options:
-            suites: robot/OEE-CottageFoods/tests
+            suites: robot/OEE-Extension/tests
             options:
-                outputdir: robot/OEE-CottageFoods/results
+                outputdir: robot/OEE-Extension/results
 
     robot_testdoc:
         options:
-            path: robot/OEE-CottageFoods/tests
-            output: robot/OEE-CottageFoods/doc/OEE-CottageFoods_tests.html
+            path: robot/OEE-Extension/tests
+            output: robot/OEE-Extension/doc/OEE-Extension_tests.html
 
     run_tests:
         options:
