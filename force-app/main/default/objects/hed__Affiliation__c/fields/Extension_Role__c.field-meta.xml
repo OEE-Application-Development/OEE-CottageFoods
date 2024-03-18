@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extension_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Extension Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Extension Admin</fullName>
+                <default>false</default>
+                <label>Extension Admin</label>
+            </value>
+            <value>
+                <fullName>Extension Director</fullName>
+                <default>false</default>
+                <label>Extension Director</label>
+            </value>
+            <value>
+                <fullName>Instructor</fullName>
+                <default>false</default>
+                <label>Instructor</label>
+            </value>
+            <value>
+                <fullName>Learner</fullName>
+                <default>false</default>
+                <label>Learner</label>
+            </value>
+            <value>
+                <fullName>Office Staff</fullName>
+                <default>false</default>
+                <label>Office Staff</label>
+            </value>
+            <value>
+                <fullName>Program Assistant</fullName>
+                <default>false</default>
+                <label>Program Assistant</label>
+            </value>
+            <value>
+                <fullName>Program Coordinator</fullName>
+                <default>false</default>
+                <label>Program Coordinator</label>
+            </value>
+            <value>
+                <fullName>Regional Extension Admin</fullName>
+                <default>false</default>
+                <label>Regional Extension Admin</label>
+            </value>
+            <value>
+                <fullName>Regional Extension Director</fullName>
+                <default>false</default>
+                <label>Regional Extension Director</label>
+            </value>
+            <value>
+                <fullName>Specialist</fullName>
+                <default>false</default>
+                <label>Specialist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

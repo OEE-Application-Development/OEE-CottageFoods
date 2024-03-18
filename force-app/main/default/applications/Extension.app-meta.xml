@@ -3,7 +3,25 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Course_Offering_Record_Page</content>
+        <content>Extension_Affiliation</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>hed__Affiliation__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Extension_Affiliation</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>hed__Affiliation__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Extension_Course_Offering</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -12,7 +30,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Course_Offering_Record_Page</content>
+        <content>Extension_Course_Offering</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -21,20 +39,38 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Contact_Record_Page</content>
+        <content>Extension_Course</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <pageOrSobjectType>hed__Course__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Contact_Record_Page</content>
+        <content>Extension_Course</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <pageOrSobjectType>hed__Course__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Extension_Account</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Extension_Account</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
@@ -47,16 +83,127 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Extension</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Learner_Attribute_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Learner</recordType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Learner_Attribute_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Learner</recordType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Learner_Attribute_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Learner</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Learner_Attribute_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Learner</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Staff_Attribute_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Staff</recordType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Staff_Attribute_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Staff</recordType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Staff_Attribute_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Staff</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Staff_Attribute_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Attribute__c</pageOrSobjectType>
+        <recordType>hed__Attribute__c.Extension_Staff</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Course_Offering</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Course_Offering__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Course_Offering</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Course_Offering__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Extension</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Course_Offering</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>hed__Course_Offering__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Extension_Course_Offering</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>hed__Course_Offering__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>hed__Attribute__c</tabs>
+    <tabs>hed__Affiliation__c</tabs>
     <tabs>hed__Course__c</tabs>
     <tabs>hed__Course_Enrollment__c</tabs>
     <tabs>hed__Course_Offering_Schedule__c</tabs>
     <tabs>hed__Course_Offering__c</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>hed__Attribute__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Extension_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>hed__Affiliation__c</tab>
+        </mappings>
         <mappings>
             <tab>hed__Attribute__c</tab>
         </mappings>
@@ -77,6 +224,15 @@
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

@@ -51,6 +51,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Extension_Area__c</picklist>
+        <values>
+            <fullName>Golden Plains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tri-River</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Industry</picklist>
         <values>
             <fullName>Agriculture</fullName>
@@ -201,6 +220,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Program_Level__c</picklist>
+        <values>
+            <fullName>GR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Rating</picklist>
         <values>
             <fullName>Cold</fullName>
@@ -259,26 +297,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>csuoee__Program_Level__c</picklist>
-        <values>
-            <fullName>GR</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PHD</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>UG</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>csuoee__Type__c</picklist>
+        <picklist>Type__c</picklist>
         <values>
             <fullName>Badge</fullName>
             <default>false</default>
@@ -297,7 +316,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>csuoee__Unit_Type__c</picklist>
+        <picklist>Unit_Type__c</picklist>
         <values>
             <fullName>Credit</fullName>
             <default>false</default>
