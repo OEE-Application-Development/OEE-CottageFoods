@@ -35,10 +35,6 @@
                 <field>hed__Expired__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Name_of_Attribute__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Extension_Specialist_Skill_Areas__c</field>
             </layoutItems>
