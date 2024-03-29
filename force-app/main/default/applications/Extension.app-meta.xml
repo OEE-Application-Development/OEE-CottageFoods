@@ -34,7 +34,8 @@
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>hed__Course_Offering__c</pageOrSobjectType>
+        <pageOrSobjectType>
+            Offering__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
