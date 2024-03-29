@@ -30,16 +30,6 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Extension_Course_Offering</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>
-            Offering__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Extension_Course</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -198,7 +188,6 @@
     <tabs>hed__Course__c</tabs>
     <tabs>hed__Course_Enrollment__c</tabs>
     <tabs>hed__Course_Offering_Schedule__c</tabs>
-    <tabs>hed__Course_Offering__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Extension_UtilityBar</utilityBar>
     <workspaceConfig>
