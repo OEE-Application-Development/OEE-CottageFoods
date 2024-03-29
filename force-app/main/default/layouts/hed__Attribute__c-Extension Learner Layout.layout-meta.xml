@@ -40,7 +40,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Cottage_Foods_Products_You_Hope_to_Sell__c</field>
+                <field>Cottage_Foods_You_Hope_To_Sell__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -6,10 +6,6 @@
     <picklistValues>
         <picklist>Extension_Specialist_Skill_Areas__c</picklist>
         <values>
-            <fullName>4-H Kids Programs</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Agriculture</fullName>
             <default>false</default>
         </values>

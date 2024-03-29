@@ -204,9 +204,6 @@
             <tab>hed__Course_Offering_Schedule__c</tab>
         </mappings>
         <mappings>
-            <tab>hed__Course_Offering__c</tab>
-        </mappings>
-        <mappings>
             <tab>hed__Course__c</tab>
         </mappings>
         <mappings>
