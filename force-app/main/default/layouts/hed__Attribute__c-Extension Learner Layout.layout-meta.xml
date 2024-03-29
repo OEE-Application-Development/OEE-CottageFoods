@@ -50,10 +50,6 @@
                 <behavior>Edit</behavior>
                 <field>Extension_Home_County__c</field>
             </layoutItems>
-<layoutItems>
-                <behavior>Edit</behavior>
-                <field>Cottage_Foods_You_Hope_To_Sell__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
