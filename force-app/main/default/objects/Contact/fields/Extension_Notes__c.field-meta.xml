@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Faculty__c</fullName>
-    <defaultValue>false</defaultValue>
-    <description>instructors, in any way</description>
+    <fullName>Extension_Notes__c</fullName>
     <externalId>false</externalId>
-    <label>Faculty</label>
+    <label>Extension Notes</label>
+    <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Checkbox</type>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
 </CustomField>

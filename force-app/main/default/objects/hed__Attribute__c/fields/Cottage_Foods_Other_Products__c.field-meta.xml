@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cottage_Foods_Other_Products__c</fullName>
+    <description>a shorter field for use as needed</description>
+    <externalId>false</externalId>
+    <label>Cottage Foods Other Products</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

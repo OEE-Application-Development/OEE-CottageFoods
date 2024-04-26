@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extension_Courses</fullName>
+    <columns>NAME</columns>
+    <columns>Course_Code__c</columns>
+    <columns>hed__Course_ID__c</columns>
+    <columns>CPS_ID__c</columns>
+    <columns>hed__Account__c</columns>
+    <columns>hed__Description__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>hed__Account__c</field>
+        <operation>contains</operation>
+        <value>Extension</value>
+    </filters>
+    <label>Extension Courses</label>
+</ListView>

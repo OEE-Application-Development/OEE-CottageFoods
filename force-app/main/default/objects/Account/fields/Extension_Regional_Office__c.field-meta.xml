@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extension_Regional_Office__c</fullName>
+    <externalId>false</externalId>
+    <label>Extension Regional Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eastern Regional Office</fullName>
+                <default>false</default>
+                <label>Eastern Regional Office</label>
+            </value>
+            <value>
+                <fullName>Front Range Regional Office</fullName>
+                <default>false</default>
+                <label>Front Range Regional Office</label>
+            </value>
+            <value>
+                <fullName>Mountain Regional Office</fullName>
+                <default>false</default>
+                <label>Mountain Regional Office</label>
+            </value>
+            <value>
+                <fullName>Southern Regional Office</fullName>
+                <default>false</default>
+                <label>Southern Regional Office</label>
+            </value>
+            <value>
+                <fullName>Western Regional Office</fullName>
+                <default>false</default>
+                <label>Western Regional Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
